@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Tajawal", sans-serif;
 }
 
 body {
@@ -34,6 +35,7 @@ main {
   background-color: #22252d;
   border-radius: 24px;
   overflow: hidden;
+  color: #f7f7f7;
 }
 
 .dark-mode-container {
@@ -45,7 +47,7 @@ main {
 }
 .dark-mode-btn {
   padding: 1px 1.2rem;
-  background-color: #272B33;
+  background-color: #272b33;
   border: 0px;
   border-radius: 8px;
   cursor: pointer;
@@ -54,11 +56,41 @@ main {
   justify-content: center;
 }
 
-.dark-mode-btn:hover{
-    background-color: #191c22;
+.dark-mode-btn:hover {
+  background-color: #191c22;
 }
 /* Dark Mode Icon */
 .material-symbols-outlined {
-    color: white;
+  color: white;
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+}
+
+.calculation {
+  width: 85%;
+  margin: 3rem auto 1rem auto;
+  text-align: right;
+}
+.result {
+  font-size: xx-large;
+  margin-top: 8px;
+  font-weight: 700;
+}
+.controls {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  background-color: #272b33;
+  border-radius: 28px;
+}
+.clear {
+  width: 55px;
+  padding: 16px 0;
+}
+.allbuttons {
+  width: 250px;
+  min-height: 66%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
 }
