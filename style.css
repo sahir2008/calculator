@@ -83,14 +83,17 @@ main {
   border-radius: 28px;
 }
 .clear {
-  width: 55px;
+  flex-basis: calc((100% / 4) - 24px);
   padding: 16px 0;
 }
 .allbuttons {
-  width: 250px;
+  width: 100%;
   min-height: 66%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 8px;
+  
 }
