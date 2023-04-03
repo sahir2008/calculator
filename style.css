@@ -67,7 +67,7 @@ main {
 
 .calculation {
   width: 85%;
-  margin: 3rem auto 1rem auto;
+  margin: 3rem 1.5rem 1rem auto;
   text-align: right;
 }
 .result {
@@ -82,18 +82,34 @@ main {
   background-color: #272b33;
   border-radius: 28px;
 }
-.clear {
+.calc-btn {
   flex-basis: calc((100% / 4) - 24px);
-  padding: 16px 0;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background-color: rgba(38, 40, 49, 0.5);
+  color: white;
+  border: none;
+  font-weight: bold;
 }
 .allbuttons {
   width: 100%;
-  min-height: 66%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+  align-items: center;
+  gap: 8px;
   padding: 8px;
-  
+}
+.allbuttons button:active {
+  transform: translateY(3px);
+}
+.green {
+  color: rgb(0, 255, 204);
+}
+.red {
+  color: lightcoral;
 }
