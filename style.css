@@ -51,18 +51,19 @@ main {
   border: 0px;
   border-radius: 8px;
   cursor: pointer;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform ease-in-out 0.1s;
+}
+.dark-mode-btn:active {
+  transform: translateY(2px);
 }
 
-.dark-mode-btn:hover {
-  background-color: #191c22;
-}
 /* Dark Mode Icon */
 .material-symbols-outlined {
-  color: white;
-  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+  font-variation-settings: "FILL" 1, "wght" 300, "GRAD" 0, "opsz" 24;
 }
 
 .calculation {
@@ -93,6 +94,7 @@ main {
   color: white;
   border: none;
   font-weight: bold;
+  transition: transform ease-in-out 0.1s;
 }
 .allbuttons {
   width: 100%;
@@ -106,6 +108,23 @@ main {
 }
 .allbuttons button:active {
   transform: translateY(3px);
+}
+.white-btn-mode {
+  background-color: #f9f9f9;
+  color: #22252d;
+}
+.white-apperance {
+  background-color: #ffffff;
+  color: #22252d;
+}
+
+.white-controls {
+  background-color: #f9f9f9;
+}
+
+.white-controls-btns {
+  background-color: #f7f7f7;
+  color: #22252d;
 }
 .green {
   color: rgb(0, 255, 204);
