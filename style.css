@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 95vh;
+  min-height: 100vh;
   background-color: #a0ecb1;
 }
 header {
@@ -20,6 +20,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 32px;
 }
 
 main {
@@ -34,7 +35,7 @@ main {
   height: 550px;
   background-color: #22252d;
   border-radius: 24px;
-  overflow: hidden;
+  /* overflow: hidden; */
   color: #f7f7f7;
 }
 
@@ -70,6 +71,7 @@ main {
   width: 85%;
   margin: 3rem 1.5rem 1rem auto;
   text-align: right;
+  overflow-wrap: break-word;
 }
 .result {
   font-size: xx-large;
@@ -79,9 +81,9 @@ main {
 .controls {
   width: 100%;
   margin: auto;
-  height: 100%;
   background-color: #272b33;
   border-radius: 28px;
+  height: 70%;
 }
 .calc-btn {
   flex-basis: calc((100% / 4) - 24px);
@@ -131,4 +133,8 @@ main {
 }
 .red {
   color: lightcoral;
+}
+
+footer {
+  margin-top: 2rem;
 }
